@@ -1,0 +1,30 @@
+{
+  "name": "gwt-fanpage",
+  "version": "0.0.0",
+  "description": "Fan page for NYC hip-hop trio Gorilla Warfare Tactics",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ABarnhard/gwt-fanpage"
+  },
+  "author": "Adam Barnhard <admbarn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ABarnhard/gwt-fanpage/issues"
+  },
+  "homepage": "https://github.com/ABarnhard/gwt-fanpage",
+  "dependencies": {
+    "ejs": "^1.0.0",
+    "express": "^4.7.2",
+    "morgan": "^1.2.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jshint-stylish": "^0.4.0"
+  }
+}
