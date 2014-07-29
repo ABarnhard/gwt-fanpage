@@ -186,26 +186,6 @@ hr
 }
 
 /*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
-
-#sidebar
-{
-  float: right;
-  width: 345px;
-}
-
-#sidebar .title h2
-{
-  font-size: 1.6em;
-}
-
-#sidebar .box1
-{
-  margin-bottom: 3em;
-}
-
-/*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
 
@@ -214,6 +194,34 @@ hr
 }
 
 /*********************************************************************************/
+/* Album/discography                                                                      */
+/*********************************************************************************/
+.album{
+  width: 100%;
+  min-height: 500px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cover{
+  display: inline;
+  float: left;
+  max-width: 50%;
+}
+
+.tracks{
+  float: right;
+  min-width: 50%;
+}
+
+.track {
+  float: left;
+  font-size: 2em;
+}
+#album-content{
+  width: 100%;
+  display: block;
+}
+/*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
 
@@ -221,6 +229,13 @@ hr
 {
   overflow: hidden;
   height: 700px;
+  background: url('/images/gwt_banner.jpg') no-repeat top center;
+  background-size: 100%;
+}
+
+#disc-header-wrapper
+{
+  overflow: hidden;
   background: url('/images/gwt_banner.jpg') no-repeat top center;
   background-size: 100%;
 }
@@ -247,58 +262,6 @@ ul.style2 li:first-child
 {
   border-top: 0;
   padding-top: 0;
-}
-
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
-
-#portfolio-wrapper
-{
-  background: #212121;
-  padding: 6em 0em;
-}
-
-#portfolio
-{
-  overflow: hidden;
-  text-align: center;
-  color: #C3C3C3;
-}
-
-#portfolio .title h2
-{
-  color: #FFF;
-}
-
-#portfolio .byline
-{
-  color: #EEA7C1;
-}
-
-#column1,
-#column2,
-#column3,
-#column4
-{
-  width: 282px;
-}
-
-#column1,
-#column2
-{
-  float: left;
-  margin-right: 24px;
-}
-
-#column3
-{
-  float: left;
-}
-
-#column4
-{
-  float: right;
 }
 
 /*********************************************************************************/
@@ -400,31 +363,6 @@ ul.style2 li:first-child
 /*********************************************************************************/
 /* Two Column                                                                    */
 /*********************************************************************************/
-
-#two-column
-{
-  overflow: hidden;
-  padding: 3em 0em 5em 0em;
-}
-
-#two-column .title h2
-{
-  font-size: 1.6em;
-}
-
-#two-column #tbox1
-{
-  float: left;
-  width: 588px;
-}
-
-#two-column #tbox2
-{
-  float: right;
-  width: 588px;
-}
-
-
 .major
 {
   margin-top: 23em;
@@ -458,86 +396,4 @@ ul.style2 li:first-child
   background: #FCC44B;
   font-size: 1.5em;
   font-weight: 700;
-}
-
-
-/*********************************************************************************/
-/* Featured                                                                      */
-/*********************************************************************************/
-
-#featured-wrapper
-{
-  overflow: hidden;
-  padding: 5em 0em;
-  background: #FFF;
-  text-align: center;
-}
-
-#featured .heading
-{
-  overflow: hidden;
-  margin-bottom: 3em;
-  padding-bottom: 2em;
-}
-
-#featured .heading h2
-{
-  font-size: 3em;
-}
-
-
-#featured .heading .byline
-{
-  font-size: 1.3em;
-}
-
-#featured .title
-{
-  margin-bottom: 1em;
-}
-
-#featured .title h2
-{
-  font-size: 1.2em;
-}
-
-#featured h2
-{
-  text-align: center;
-}
-
-#featured .icon
-{
-  position: relative;
-  display: block;
-  margin: 0px auto 20px auto;
-  line-height:  normal;
-  font-size: 6em;
-  text-align: center;
-  color: #FCC44B;
-}
-
-.column1,
-.column2,
-.column3,
-.column4
-{
-  width: 384px;
-}
-
-.column1,
-.column2
-{
-  float: left;
-  margin-right: 24px;
-}
-
-.column3
-{
-  float: left;
-}
-
-.column4
-{
-  float: right;
 }
