@@ -26,8 +26,10 @@ app.get('/tourdates', function(req, res){
     res.render('tourdates');
 });
 
-app.listen(3000, function(){
-    console.log('Express.js is listening...');
+var port = process.env.PORT
+
+app.listen(port, function(){
+    console.log('Express.js is listening on PORT:', port);
 });
 
 
